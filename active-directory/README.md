@@ -17,17 +17,11 @@ Domain controller and client setup on ESXi running inside VMware Workstation.
 - Backup of the DC with Veeam Backup & Replication
 
 ## Steps
-
-1. TODO
-2. TODO
-3. TODO
+در ابتدا در ویندوز سرور اکتیو دایرکتوری را با نام mohammad.local ایجاد کردم و در ان ویندوز دیگرم را عضو دامین کردم بعد از ان فایلی را در درون ویندوز سرورفایلی به اشتراک گزاشتم و روی آن ntfs premission های مختلف را تست کردم و با ویندوز دیگرم به عنوان کلاینت این قابلیت هارا تست کردم
 
 ## Screenshots
 
 TODO
 
 ## Problems and Solutions
-
-| Problem | Cause | Solution |
-|---------|-------|----------|
-| TODO | TODO | TODO |
+برای عضو دامین کردن ویندوزکلاینت به مشکل خوردم که فهمیدم رنجی که برای دامین در نظر گرفته شده 192.168.201.0 هست که با رنج در نظر گرفته شده برای ویندوز کلاینت یکسان هست که با عوض کردن رنج مشکل حل شد
